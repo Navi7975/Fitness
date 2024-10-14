@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerZone Fitness- A GYM WEBSITE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Sora:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script>
+        function redirectToPage() {
+            // Change the URL to the desired destination
+            window.location.href = 'login1.html'; // Replace with your desired URL
+        }
+    </script>
+
+</head>
+
+<body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <main id="Home-section">
+
+        <!-- HEADER -->
+
+
+        <header class="primary-header">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a class="logo">
+                        <i class="fa-solid fa-dumbbell"></i>PowerZone Fitness</a>
+                    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                        <span class="fa-solid fa-bars" aria-hidden="true"></span>
+                        <span class="visually-hidden">Menu</span>
+                    </button>
+                    <nav class="primary-navigation" id="primary-navigation">
+                        <ul aria-label="Primary" role="list" class="nav-list">
+                            <li><a href="#Home-section">Home</a></li>
+                            <li><a href="#programs-section">Programs</a></li>
+                            <li><a href="#products-section">Products</a></li>
+                            <li><a href="#pricing-section">Pricing</a></li>
+                        </ul>
+                    </nav>
+                    <button class="btn display-sm-none display-md-inline-flex" onclick="redirectToPage()">Get
+                        Started</button>
+
+                    <script>
+                        function redirectToPage() {
+
+                            window.location.href = "login.php";
+                        }
+                    </script>
+
+                </div>
+            </div>
+        </header>
+
+
+        <!-- HERO-SECTION -->
+
+
+        <section class="hero-section | padding-block-900">
+            <div class="container">
+                <div class="flow | text-center-sm-only" data-aos="fade-down">
+                    <h1 class="fs-primary-heading fw-bold uppercase"><span class="special-text"> Fitness</span> is your
+                        passion <span class="special-text">with</span> aggression</h1>
+                    <p>Powerzone Fitness is a gym that offers a variety of fitness classes, equipment, products and
+                        personal training options to help you reach your fitness goals. We have something to offer
+                        everyone, no matter what your starting point is. Sign up for a membership today!.</p>
+                    <button class="btn" onclick="redirectToPage()">Get Started</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- INTRODUCTION-SECTION -->
+    <section class="introduction | padding-block-900 bg-secondary">
+        <div class="container" data-aos="fade-up">
+            <div class="flow introduction-content | text-center-sm-only">
+                <h2 class="fs-secondary-heading fw-bold uppercase">Welcome to <br> <span class="special-text">PowerZone
+                        Fitness</span></h2>
+                <p data-width="wide" class="fs-500"></br>
+                    At PowerZoneFitness, we're more than just a gym; we're a supportive community dedicated to your
+                    health and wellness. Offering diverse classes, top-notch equipment, and personalized training, we
+                    empower everyone to thrive. Our inclusive atmosphere and friendly staff foster connection and
+                    support. Join us, whether you're starting out or pushing your limits, as we guide you on your
+                    fitness journey.
+                    <br>
+                    <br>
+                    If you have any questions or need assistance, please don't hesitate to ask our staff. <br>
+                    </br>
+
+                </p>
+            </div>
+            <div class="introduction-img display-sm-none">
+                <img src="images/overlay1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PROGRAMS SECTION -->
+    <section class="programs | padding-block-900" id="programs-section">
+        <div class="container">
+            <h2 class="fs-secondary-heading fw-bold uppercase text-center">Our <span
+                    class="special-text">Programs</span></h2>
+            <div class="items-wrapper | padding-block-700">
+                <div class="program-item" data-aos="fade-up-right">
+                    <img src="images/program-img1.jpg" alt="">
+                    <div class="program-item-content">
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark">Strength Taininig</h3>
+                        <p>Build muscle, burn fat, and improve your overall health.</p>
+                    </div>
+                </div>
+                <div class="program-item" data-aos="fade-up-right">
+                    <img src="images/program-img2.jpg" alt="">
+                    <div class="program-item-content">
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark">Weight Taininig</h3>
+                        <p>Transform your body and mind.</p>
+                    </div>
+                </div>
+                <div class="program-item" data-aos="fade-up-left">
+                    <img src="images/program-img3.jpg" alt="">
+                    <div class="program-item-content">
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark">Fat Losing</h3>
+                        <p>Burn more calories than you consume.</p>
+                    </div>
+                </div>
+                <div class="program-item" data-aos="fade-up-left">
+                    <img src="images/program-img4.jpg" alt="">
+                    <div class="program-item-content">
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark">Speed Building</h3>
+                        <p>Train faster than you race.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PRODUCTS SECTION -->
+    <section class="products | padding-block-900 bg-secondary" id="products-section">
+        <div class="container">
+            <h2 class="fs-secondary-heading fw-bold uppercase text-center"><span class="special-text">Our</span>
+                Products</h2>
+            <div class="items-wrapper padding-block-700">
+                <div class="product-item bg-dark" data-aos="zoom-in-up">
+                    <img src="images/product1.png" alt="">
+                    <div class="product-item-content">
+                        <h3 class="fw-semi-bold fs-700 special-text">Vegan Protein</h3>
+                        <p>₹999</p>
+                        <button class="btn | display-sm-none display-md-inline-flex" onclick="redirectToPage()">Buy
+                            Now</button>
+                    </div>
+                </div>
+                <div class="product-item bg-dark" data-aos="zoom-in-up">
+                    <img src="images/product2.png" alt="">
+                    <div class="product-item-content">
+                        <h3 class="fw-semi-bold fs-700 special-text">Whey Concentrate</h3>
+                        <p>₹1599</p>
+                        <button class="btn | display-sm-none display-md-inline-flex" onclick="redirectToPage()">Buy
+                            Now</button>
+                    </div>
+                </div>
+                <div class="product-item bg-dark" data-aos="zoom-in-up">
+                    <img src="images/product3.png" alt="">
+                    <div class="product-item-content">
+                        <h3 class="fw-semi-bold fs-700 special-text">Everyday Energy</h3>
+                        <p>₹799</p>
+                        <button class="btn | display-sm-none display-md-inline-flex" onclick="redirectToPage()">Buy
+                            Now</button>
+                    </div>
+                </div>
+                <div class="product-item bg-dark" data-aos="zoom-in-up">
+                    <img src="images/product4.png" alt="">
+                    <div class="product-item-content">
+                        <h3 class="fw-semi-bold fs-700 special-text">Whey Isolate</h3>
+                        <p>₹2299</p>
+                        <button class="btn | display-sm-none display-md-inline-flex" onclick="redirectToPage()">Buy
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- PRICING SECTION -->
+    <section class="pricing | padding-block-900" id="pricing-section">
+        <div class="container">
+            <h2 class="fs-secondary-heading fw-bold uppercase text-center">Our <span class="special-text">PLANS</span>
+            </h2>
+            <div class="plans padding-block-700 items-wrapper">
+                <div class="plan-item bg-secondary" data-aos="slide-right">
+                    <h4 class="fs-700 fw-semi-bold">₹3999 <span class="special-text fs-200">/Month</span></h4>
+                    <div class="offer-title">Exclusive Offer</div>
+                    <ul class="package-list">
+                        <li>3 Month </li>
+                        <li> Everyday Energy </li>
+                        <li>No Home Workout Videos</li>
+                        <li> No trainer</li>
+                    </ul>
+                    <button class="btn | display-sm-none display-md-inline-flex" onclick="redirectToPage()">Buy
+                        Now</button>
+                </div>
+                <div class="plan-item bg-secondary" data-aos="slide-down">
+                    <h4 class="fs-700 fw-semi-bold"> ₹9999 <span class="special-text fs-200">/Month</span></h4>
+                    <div class="offer-title">Exclusive Offer</div>
+                    <ul class="package-list">
+                        <li> 12 Month </li>
+                        <li> With certified trainer</li>
+                        <li> Whey Concentrate</li>
+                        <li> Whey Isolate</li>
+                        <li> Home workout videos </li>
+                        <li> Additional One month</li>
+                    </ul>
+                    <button class="btn | display-sm-none display-md-inline-flex" onclick="redirectToPage()">Buy
+                        Now</button>
+                </div>
+                <div class="plan-item bg-secondary" data-aos="slide-left">
+                    <h4 class="fs-700 fw-semi-bold"> ₹7999 <span class="special-text fs-200">/Month</span></h4>
+                    <div class="offer-title">Exclusive Offer</div>
+                    <ul class="package-list">
+                        <li>6 Month </li>
+                        <li> With trainer</li>
+                        <li> Vegan Protien</li>
+                        <li>Home workout videos</li>
+                    </ul>
+                    <button class="btn | display-sm-none display-md-inline-flex" onclick="redirectToPage()">Buy
+                        Now</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="primary-footer | padding-block-900 bg-secondary">
+        <div class="container">
+            <div class="even-columns text-center-sm-only">
+                <div>
+                    <h4 class="fs-700 uppercase fw-bold">Follow us</h4>
+                    <ul class="social-icons " role="list">
+                        <li><a href="https://www.facebook.com/profile.php?id=61551694790823"><i
+                                    class="fa-brands fa-facebook | text-white fs-700"></i></a></li>
+                        <li><a href="https://www.instagram.com/powerzonefitness4/"><i
+                                    class="fa-brands fa-instagram | text-white fs-700"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/powerzonefitness-studio-88b3b7292/"><i
+                                    class="fa-brands fa-linkedin | text-white fs-700"></i></a></li>
+                    </ul>
+                    <a class="logo">
+                        <i class="fa-solid fa-dumbbell"></i>PowerZone Fitness</a>
+                </div>
+                <div>
+                    <h4 class="fs-700 uppercase fw-bold">Links</h4>
+                    <ul role="list" class="primary-footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Programs</a></li>
+                        <li><a href="index.html">Products</a></li>
+                        <li><a href="index.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="fs-700 uppercase fw-bold">Quick Contacts</h4>
+                    <ul role="list" class="contact-links">
+                        <li><a href=""><i class="fa-solid fa-phone"></i>+91-9741453540</a></li>
+                        <li><a href=""><i class="fa-solid fa-envelope"></i></i>powerzonefitness4@gmail.com</a></li>
+                        <li><a href=""><i class="fa-solid fa-user"></i>@powerzonefitnessofficial</a></li>
+                        <li><a href=""><i class="fa-solid fa-globe"></i>www.powerzonefitness.com</a></li>
+                        <li><a href=""><i class="fa-solid fa-location-dot"></i> South Avenue Complex, Nagasandra Main
+                                Rd, Basavanagudi, Bengaluru, Karnataka-560004</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <h5 class="fs-500 fw-semi-bold text-center"><span class="special-text"><i
+                        class="fa-solid fa-dumbbell"></i>PowerZone Fitness</span> Ⓒ 2023 - All Rights Reserved</h5>
+        </div>
+
+
+    </footer>
+
+
+
+
+    <script src="js/script.js"></script>
+
+    <!-- Animation code -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+            once: false,
+        });
+    </script>
+    <!-- Animation code -->
+
+
+</body>
+
+</html>
